@@ -1,0 +1,135 @@
+body{
+
+    height:2000px;
+    background:lightgray;
+    perspective:600px;
+}
+nav ul{
+    list-style-type:none;
+    list-style-position: inside;
+    background:royalblue;
+    display:inline-block;
+    min-height:50px;
+    min-width: 100%;
+    margin-top:0px;
+    margin-bottom:0px;
+      
+}
+nav ul li{
+    float:left;
+    padding-right:15px;
+    padding-top:15px;
+    color:white;
+    font-family: sans-serif;
+}
+.search > input{
+    min-width:200px;
+    min-height:23px;
+    margin-left:25px;
+    border:none;
+    outline:1px solid skyblue;
+    
+}
+.header-img{
+    padding-left:250px;
+    padding-right:100px;
+    opacity:1;
+}
+.display1,
+.display2{
+    width:200px;
+    background:red;
+    margin:5px;
+    margin-left:2px;
+    margin-top:0px;
+    padding:5px;
+    border:5px;
+    border-radius:3px;
+    color:black;
+    display:inline-block;
+}
+
+.display1{
+    background-color: ghostwhite;
+    min-height: 700px;
+    min-width: 233px;
+    border-right: 4px solid lavender;
+    margin-right:5px;
+    top: 560px;
+    left: 10px;
+    line-height: 10px;
+    position: absolute;
+      
+}
+
+.display1 a{
+padding-left:25px;
+color:black;
+text-decoration:none;
+line-height:20px;
+letter-spacing:1.5px;
+font-size: 17px;
+float:left;
+clear:left;
+}
+.display1 a:hover{
+color: salmon;
+
+}
+
+.display2 {
+    background: white;
+    min-height: 700px;
+    min-width: 1290px;
+    padding-left: 7px;
+    top: 560px;
+    right: 3px;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+}
+.display2 #sport{
+    
+    max-width:207px;
+    height:310px;
+    padding:7px;
+    padding-bottom: 33px;
+    border-left:3px solid lightgray;
+    border-bottom:3px solid lightgray;
+    margin:-1.3px;
+    display:inline-block;
+    
+}
+.display2 section h3{
+    color:darkblue;
+}
+.break{
+    background-color:lightgrey;
+    width:98%;
+    height:5px;
+    margin-top:20px;
+    margin-left:20px;
+   
+}
+#Back_button{
+   border:none;
+   outline:1px solid springgreen;
+   color:springgreen;
+   font-weight: 600;
+   height:32px;
+   width:120px;
+   margin-left:450px;
+   margin-top:50px;
+   margin-bottom:10px;
+   opacity:0.65; 
+}
+#Back_button:hover{
+    font-size:13px;
+    color:white;
+    background-color:springgreen;
+    
+}
+
+
+
+
